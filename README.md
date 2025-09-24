@@ -47,7 +47,7 @@ git clone https://github.com/Durgarao13/FoodFunPlace.git
 
 cd FoodFunPlace
 
-2. Configure the database
+### 2. Configure the database
 
 Open MySQL and create a database + user:
 
@@ -56,7 +56,7 @@ CREATE USER 'bm_user'@'localhost' IDENTIFIED BY 'Bm_pass_2025!';
 GRANT ALL PRIVILEGES ON food_delivery.* TO 'bm_user'@'localhost';
 FLUSH PRIVILEGES;
 
-3. Edit application.properties
+### 3. Edit application.properties
 
 Located at: src/main/resources/application.properties
 
@@ -71,6 +71,6 @@ spring.jpa.show-sql=true
 
 server.port=8080
 
-4. Build and run
+### 4. Build and run
 mvn clean package
 mvn spring-boot:run
