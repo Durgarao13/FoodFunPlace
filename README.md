@@ -44,6 +44,7 @@ This project lets users browse menus, place orders, and learn more about the res
 ### 1. Clone the repo
 
 git clone https://github.com/Durgarao13/FoodFunPlace.git
+
 cd FoodFunPlace
 
 2. Configure the database
